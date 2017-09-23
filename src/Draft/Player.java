@@ -2,7 +2,13 @@ package Draft;
 
 public class Player {
 
-    public Player(String name, int overall){
+    String name;
+    int overall;
+    String position;
 
+    public Player(String name, int overall, String position){
+        this.name = name;
+        this.overall = overall;
+        this.position = position;
     }
 }
