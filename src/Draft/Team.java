@@ -1,9 +1,9 @@
 package Draft;
 
-public class Team {
+public class Team{
 
-    String name;
-    Roster roster;
+    private String name;
+    private Roster roster;
 
 
     //This object will have a professional team name and a Roster object
@@ -12,4 +12,11 @@ public class Team {
         this.roster = roster;
     }
 
+    public String getName(){
+        return name;
+    }
+
+    public Roster getRoster(){
+        return roster;
+    }
 }

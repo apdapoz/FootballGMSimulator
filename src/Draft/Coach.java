@@ -2,9 +2,13 @@ package Draft;
 
 public class Coach {
 
-    String name;
+    private String name;
 
     public Coach(String name){
         this.name = name;
+    }
+
+    public String getName(){
+        return name;
     }
 }
