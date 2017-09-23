@@ -12,6 +12,11 @@ public class Team{
         this.roster = roster;
     }
 
+    public Team(String name){
+        this.name = name;
+        this.roster = roster;
+    }
+
     public String getName(){
         return name;
     }

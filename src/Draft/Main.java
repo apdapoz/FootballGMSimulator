@@ -11,8 +11,7 @@ import java.util.Stack;
 
 public class Main extends Application {
 
-    Team userteam;
-    String[] TeamNames = {"49ers",
+    static String[] TeamNames = {"49ers",
             "Browns",
             "Jaguars",
             "Titans",
@@ -62,16 +61,5 @@ public class Main extends Application {
         launch(args);
     }
 
-    public void assignTeamNames(){
-        Stack<String> = new Stack();
-        for(int i = 0; i< TeamNames.length; i++){
-            if(TeamNames[i].compareTo(userteam.getName())==1)
-                continue;
-            Stack.push(TeamNames[i]);
-        }
 
-        for(int i = 1; i< TeamNames.length; i++){
-
-        }
-    }
 }
